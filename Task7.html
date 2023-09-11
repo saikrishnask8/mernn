@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .td1{
+            list-style-type: none;
+            width: 150px ;
+            background-color: lightblue;
+            margin: 0;
+            padding: 0;
+        }
+        .a1{
+            display:block;
+            padding: 8px 16px;
+            text-decoration: none;
+            color: blue;
+        }
+        .a1:hover{
+            background-color: orange;
+            color:white;
+        }
+        .c1{
+            border: 1px solid black;
+            padding: 5px;
+        }
+        .td2{
+            list-style-type: none;
+            width: 100px;
+            background-color: #dddddd;
+            margin: 0;
+            padding: 0;
+            border-right: 1px solid blue;
+        }
+        .td2:last-child {
+            border-right: none;
+        }
+        .a2{
+            display:block;
+            padding: 8px;
+            text-decoration: none;
+            color: blue;
+        }
+        .a2:hover{
+            background-color: #918B81;
+            color: white;
+        }
+        .c2{
+            border: 1px solid black;
+            padding: 5px;
+            position: relative;
+            left: 200px;
+            top: -180px;
+        }
+    </style>
+</head>
+<body>
+    <table class="c1" border="0" cellspacing="0" cellpadding="0">
+        <caption><h4>Vertical Navigation bar</h4></caption>
+        <tr>
+            <td class="td1"><a class="a1" href="#">Home</a></td>
+        </tr>
+        <tr>
+            <td class="td1"><a class="a1" href="#">Java</a></td>
+        </tr>
+        <tr>
+            <td class="td1"><a class="a1" href="#">CSS</a></td>
+        </tr>
+        <tr>
+            <td class="td1"><a class="a1" href="#">HTML</a></td>
+        </tr>
+        <tr>
+            <td class="td1"><a class="a1" href="#">Bootstrap</a></td>
+        </tr>
+    </table>
+    <table class="c2" border="0" cellspacing="0">
+        <caption><h4>Horizontal Navigation Bar</h4></caption>
+        <tr>
+            <td class="td2"><center><a class="a2" href="#">Home</a></center></td>
+            <td class="td2"><center><a class="a2" href="#">Java</a></center></td>
+            <td class="td2"><center><a class="a2" href="#">CSS</a></center></td>
+            <td class="td2"><center><a class="a2" href="#">HTML</a></center></td>
+            <td class="td2"><center><a class="a2" href="#">Bootstrap</a></center></td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgba(149,53,85,255);
+        }
+        .a1{
+            border: 1px solid black;
+            height: 500px;
+            width: 700px;
+            background-color: rgba(108,39,63,255);
+            color: white;
+        }
+        .l1{
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <div class="a1">
+            <center>
+                <table border="0" cellspacing="0" cellpadding="10px"  > 
+                <!-- <br> -->
+                    <tr>
+                    <td class="l1"><strong>Name:</strong></td>
+                    <td>
+                        <input type="text" style="width: 200px" placeholder="your name" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="l1"><strong>Email:</strong></td>
+                    <td>
+                        <input type="text" style="width:200px" placeholder="your email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="l1"><strong>Password:</strong></td>
+                    <td>
+                        <input type="password" style="width:200px" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="l1"><b>Phone Number:</b></td>
+                    <td>
+                        <input type="tel" style="width:200px" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="l1"><strong>Gender:</strong></td>
+                    <td colspan="2">
+                        Male:<input type="radio" name="gender"/>
+                        Female:<input type="radio" name="gender"/>
+                        Other:<input type="radio" name="gender"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="l1"> <b>Language</b></td>
+                    <td>
+                        <select name="language" required>
+                            <option value="">Select languuage</option>
+                            <option>telugu</option>
+                            <option>hindi</option>
+                            <option>marati</option>
+                            <option>urdu</option>
+                            <option>tamil</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="l1"><b>Zip Code:</b></td>
+                    <td>
+                        <input type="number" style="width:200px" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="l1"><b>About:</b></td>
+                    <td>
+                        <textarea type="text" rows="3" cols="25" placeholder="Write about yourself..." required></textarea>
+                    </td>
+                </tr>
+                </table>
+                <br>
+                <input style="width: 350px; height:40px; font-weight:bold; font-size:larger; border-radius:10px; " type="submit" value="Register" >
+            </center> 
+        </div>
+    </center>
+</body>
+</html>
